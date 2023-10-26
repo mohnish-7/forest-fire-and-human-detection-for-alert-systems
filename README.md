@@ -1,0 +1,1 @@
+# forest-fire-and-human-detection-for-alert-systems
