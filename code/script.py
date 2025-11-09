@@ -29,7 +29,7 @@ LABELS = open(labelsPath).read().strip().split("\n")
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 
 # Connecting to client for SMS alerts
-client = Client("ACe620825d0dd51664cb5844f814d9da07", "89a550a5b705eb80138f2c425bc828cb")
+
 
 # Loading the Transformer model
 model = torch.load('../Models/new_model.pth')
