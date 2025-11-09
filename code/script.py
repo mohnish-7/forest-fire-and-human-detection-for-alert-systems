@@ -106,9 +106,9 @@ def send_mail(n,content):
 
 def send_sms(msg,s=False,w=False):
     if s:
-        client.messages.create(to=["+919790555489"], from_="+16086802738", body= msg)
+        client.messages.create(to=["+91955489"], from_="+1608738", body= msg)
     if w:
-        client.messages.create(from_='whatsapp:+14155238886',body=msg,to='whatsapp:+919790555489')
+        client.messages.create(from_='whatsapp:+14238886',body=msg,to='whatsapp:+915489')
 
 
 
